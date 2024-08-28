@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: plum;
+}
+
+.container {
+    text-align: center;
+    background: pink;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStopBtn {
+    background-color: #4caf50;
+    color: black;
+}
+#startStopBtn:hover{
+    background-color: #228025;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: black;
+}
+#resetBtn:hover{
+    background-color: rgb(136, 29, 47);
+    color: white;
+}
+
+#lapBtn {
+    background-color: #2196f3;
+    color: black;
+}
+#lapBtn:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background: plum;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
